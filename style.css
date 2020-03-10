@@ -1,0 +1,9 @@
+.navbar{ /* main navbar that directs to all other pages*/
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* so it stays at top of page and doesnt move*/
+  top: 200px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+}

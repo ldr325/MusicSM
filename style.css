@@ -4,12 +4,93 @@
 }*/
 
 body,html{
-  background-color: #b6cdf0;
+  background-color: #F2E3B3;
+  margin: 0px;
 }
 
 .NavBar{ /* main navbar that directs to all other pages*/
+  overflow: hidden;
   position: fixed;
+  top: 0;
   width: 240px;
   height: 100vh; /*viewport window = vh*/
-  background-color: #f0d8a5;
+  background-color: #013A66;
+}
+
+/* possible colors
+1. #F2790D
+2. #E1AA13
+3. #01AFA6
+4. #055C6B
+5. #072446
+6. #013A66
+7. #D99414
+
+oranges
+1. #F2B705
+2. #F2E3B3
+3. #F29F05
+4. #F28705
+5. #D93D04
+6. #FF9702
+7. #D34C02
+8. #FEC901
+9. #FFF2DF
+10.#FEF2B8
+
+1. #b6cdf0
+2. #f0d8a5
+*/
+
+.profileImage{
+  padding-left: 2.5vw;
+}
+
+.MiniTtile{
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  padding-left: .5vw;
+}
+
+.ProfileText{
+  font-family: "Work Sans", sans-serif;
+  padding-left: 1vw;
+}
+
+a:link{
+  text-decoration: none;
+  color: #F2E3B3;
+}
+
+a:visited{
+  color:#F2E3B3;
+}
+
+.MainContainer{
+  margin-left: 240px;
+}
+
+.topBanner{
+  display: flex;
+  background-color: #013A66;
+  height: 12vh;
+  align-items: center;
+}
+
+.material-icons.md-18{
+  font-size: 24px;
+  color: #F29F05;
+}
+
+.material-icons.md-36{
+  font-size: 36px;
+  grid-column-start: 3; 
+}
+
+.MusicBar{
+  display: flex;
+  width: 40%;
+  height: 50%;
+  justify-content: center;
+  padding-left: 250px;
 }

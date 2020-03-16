@@ -127,6 +127,11 @@ a:visited{
   font-size: 40px;
 }
 
+.material-icons.md12{
+  font-size: 60px;
+  color: #F28705;
+}
+
 .SubTitle{
   font-family: "Lato", sans-serif;
   font-size: 30pt;
@@ -201,6 +206,18 @@ a:visited{
 .imgG1{
   display: flex;
   justify-content: space-around;
+}
+
+.imgG2{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 400px;
+}
+
+.AlbumT{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Work Sans", sans-serif;
 }
 
 .AlbumT{
